@@ -21,10 +21,10 @@ echo "Installing category Accessories"
 
 sudo pacman -S --noconfirm --needed catfish
 sudo pacman -S --noconfirm --needed cmatrix
-sudo pacman -S --noconfirm --needed galculator
+#sudo pacman -S --noconfirm --needed galculator
 sudo pacman -S --noconfirm --needed gnome-screenshot
 sudo pacman -S --noconfirm --needed plank
-sudo pacman -S --noconfirm --needed xfburn
+#sudo pacman -S --noconfirm --needed xfburn
 sudo pacman -S --noconfirm --needed variety
 #sudo pacman -S --noconfirm --needed
 
@@ -32,8 +32,8 @@ sudo pacman -S --noconfirm --needed variety
 echo "Installing category Development"
 
 sudo pacman -S --noconfirm --needed atom
-sudo pacman -S --noconfirm --needed geany
-sudo pacman -S --noconfirm --needed meld
+#sudo pacman -S --noconfirm --needed geany
+#sudo pacman -S --noconfirm --needed meld
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Education"
@@ -71,7 +71,7 @@ echo "Installing category Multimedia"
 #sudo pacman -S --noconfirm --needed deadbeef
 #sudo pacman -S --noconfirm --needed mpv
 #sudo pacman -S --noconfirm --needed openshot
-sudo pacman -S --noconfirm --needed pragha
+#sudo pacman -S --noconfirm --needed pragha
 #sudo pacman -S --noconfirm --needed shotwell
 sudo pacman -S --noconfirm --needed simplescreenrecorder
 #sudo pacman -S --noconfirm --needed smplayer
@@ -83,7 +83,7 @@ echo "Installing category Office"
 sudo pacman -S --noconfirm --needed evince
 sudo pacman -S --noconfirm --needed evolution
 #sudo pacman -S --noconfirm --needed geary
-#sudo pacman -S --noconfirm --needed libreoffice-fresh
+sudo pacman -S --noconfirm --needed libreoffice-fresh
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Other"
